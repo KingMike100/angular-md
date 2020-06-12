@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MarkdownService} from 'ngx-markdown'
 
 @Component({
   selector: 'app-blog-view',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogViewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private markdownService: MarkdownService) { }
 
   ngOnInit() {
+      
   }
 
 }

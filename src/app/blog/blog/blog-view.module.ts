@@ -1,3 +1,5 @@
+import { MarkdownModule } from 'ngx-markdown';
+
 @NgModule({
   declarations: [BlogViewComponent],
   imports: [
